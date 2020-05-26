@@ -8,13 +8,15 @@ class Dog
 public:
     int age;
     string name, color, breed;
-    Dog();
+   
+    Dog()
+    { cout<<"Dog object created\n"; }
+
 
    Dog(int, string, string,string);
     void displayDetails();
+    
 };
- Dog :: Dog()
-    { cout<<"Dog object created\n"; }
 
 Dog ::  Dog(int age, string name, string color, string breed)
     {
@@ -29,9 +31,10 @@ void Dog :: displayDetails()
 }
 int main()
 {
+    Dog();
     Dog dog1(7,"jackie", "white","gold");
     dog1.displayDetails();
-
+    Dog();
     Dog dog2(4, "Beagle", "Brown", "Pluto");
     dog2.displayDetails();
 
