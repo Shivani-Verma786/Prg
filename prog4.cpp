@@ -1,3 +1,5 @@
+/*Add a parameterized constructor that initializes all the attributes during object creation.*/
+/*Create dog objects by calling the parameterized constructor*/
 #include<iostream>
 #include<string>
 using namespace std;
