@@ -32,10 +32,10 @@ void Dog :: displayDetails()
 int main()
 {
     Dog();
-    Dog dog1(7,"jackie", "white","gold");
+    Dog dog1(7,"jackie", "white","Dalmation");
     dog1.displayDetails();
     Dog();
-    Dog dog2(4, "Beagle", "Brown", "Pluto");
+    Dog dog2(4,  "Pluto", "Brown", "Beagle");
     dog2.displayDetails();
 
     return 0;
